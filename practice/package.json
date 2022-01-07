@@ -1,0 +1,39 @@
+{
+  "name": "last-decimal",
+  "description": "Last Decimal",
+  "version": "1.0.0",
+  "author": "Impulsive Web <sheetal@impulsiveweb.com>",
+  "private": true,
+  "license": "GPL",
+  "keywords": [
+    "LastDecimal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/impulsiveweb/Last-Decimal.git"
+  },
+  "homepage": "https://github.com/impulsiveweb/Last-Decimal.git#readme",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "service": "gulp service"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-image": "^6.3.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "gulp-imagemin": "^7.0.0",
+    "sass": "^1.45.1"
+  }
+}

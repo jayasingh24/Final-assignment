@@ -1,0 +1,58 @@
+@import "_variables";
+@import "_fonts";
+
+@import "./components/form";
+@import "./components/tooltip";
+@import "./components/sidebar";
+@import "./components/header";
+@import "./components/box";
+@import "./pages/login";
+@import "./pages/landing";
+
+*{
+  padding:0;
+  margin:0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+*:focus, *:hover{
+  outline: none;
+  text-decoration: none;
+}
+body{
+  box-sizing: border-box;
+  font-family: $font-family;
+  font-weight: 400;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $color-text;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $color-text;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: $color-text;
+}
+
+$spaceamounts: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100); // Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right); // Leave this variable alone
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m#{str-slice($side, 0, 1)}-#{$space} {
+      margin-#{$side}: #{$space}px !important;
+    }
+  
+    .p#{str-slice($side, 0, 1)}-#{$space} {
+      padding-#{$side}: #{$space}px !important;
+    }
+  }
+}

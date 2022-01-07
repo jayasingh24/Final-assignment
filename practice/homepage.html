@@ -10,7 +10,7 @@
 <body>
     <div class="sidebar">
       <div class="sidebar-wrapper">
-        <ul class="navigation">
+        <ul class="navigation mt-20">
           <li class="active">
             <a href="#">Home
               <div class="sidebar-icon">
@@ -61,6 +61,7 @@
               </a>
             </li>
         </ul>
+        <div class="sidebar-footer">All Rights Reserved (C) BancaEdge v0.0.0</div>
       </div>
     </div>
       <div class="header">
@@ -73,18 +74,32 @@
             
           </div>
         </div>
-        <div class="searchbox"><div class="flex-container2">
-          <div style="align-self: center"><div ><button class="but1" >English</button></div> </div>
-          <div style="align-self: center"><div class="icon1"></div><img src="/assets/dist/img/search.png" width="20px" height="20px" alt=""> </div>
-          <div style="align-self: center"><div class="icon2"></div><img src="/assets/dist/img/question-mark.png" width="20px" height="20px" > </div>
-          <div style="align-self: center"><div class="icon3"></div><img src="/assets/dist/img/bell.png" width="20px" height="20px" > </div>
-          <div style="align-self: center"><div class="icon4"></div><img src="/assets/dist/img/user.png" width="20px" height="20px" > </div>
-          
+        <div class="action-bar">
+          <div class="language-dropdown">
+            <div class="dropdown-box">
+              <div class="label">English</div>
+              <div class="caret">
+                <img src="/assets/img/caret-down-white.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="action">
+            <img src="/assets/dist/img/search.png" alt="">
+          </div>
+          <div class="action">
+            <img src="/assets/dist/img/question-mark.png" alt="">
+          </div>
+          <div class="action">
+            <img src="/assets/dist/img/bell.png" alt="">
+          </div>
+          <div class="action">
+            <img src="/assets/dist/img/user.png" alt="">
+          </div>
         </div>
 
         </div>
 
-      </div>
+      
 
       <div class="landing">
         <div class="landing_container">
@@ -100,7 +115,42 @@
       </div>
     </div>
     <div class="content">
-      <img src="/assets/dist/img/targetbox.png" alt="">
+      <div class="lead-progress">
+        <div class="bar-container">
+          <div class="bar-progress" style="width: 60%">
+            <div class="progress green" style="width: 100%"></div>
+            <div class="progress-lead">
+              <div class="lead-box_main">
+                <div class="title-con">
+                  <div class="title">3 Leads</div>
+                </div>
+                <div class="sub-title">Generated till now</div>
+                <span style='font-size:20px;'><b>&#9660;</b></span>
+              </div>
+            </div>
+          </div>
+          <div class="progress-lead-from">
+            <div class="lead-box">
+              <div class="title-con">
+                <div class="title red">
+                  <span style='color:red;'>&#8595;</span> 2 Leads
+                </div>
+              </div>
+              <div class="sub-title">Less from last week.</div>
+            </div>
+          </div>
+          <div class="progress-lead-to">
+            <div class="lead-box">
+              <div class="title-con">
+                <div class="title green right">
+                  <span style='color:green; margin-right: 4px;'>&#8593;</span>5 Leads</span>
+                </div> 
+              </div>
+              <div class="sub-title">Target for this week</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="footer pt-20 mb-0">
       <div class="lead-message">
@@ -118,7 +168,7 @@
             </div>
           </div>
           
-          <div class="page-section2">
+          <div class="page-section2 mb-20">
             <div class="grid">
               <div class="col1">
                 <div class="col1box">
@@ -127,7 +177,7 @@
                     <div class="noti-count">3</div>
                   </div>
                   <div class="box-content">
-                    <div class="content-panel">
+                    <div class="content-panel mb-20">
                       <div class="panel-header">
                         <div class="panel-icon">
                           <img src="/assets/dist/img/document.png" alt="">
@@ -148,7 +198,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="content-panel ">
+                    <div class="content-panel mb-20 ">
                       <div class="panel-header">
                         <div class="panel-icon">
                           <img src="/assets/dist/img/document.png" alt="">
@@ -169,7 +219,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="content-panel ">
+                    <div class="content-panel mb-10 ">
                       <div class="panel-header">
                         <div class="panel-icon">
                           <img src="/assets/dist/img/document.png" alt="">
@@ -402,5 +452,9 @@
         </div>
         
       </div>
+      <div class="chat-opener">
+        <img src="/assets/dist/img/comment.png" alt="">
+      </div>
+      <script src="/assets/js/app.min.js"></script>
 </body>
 </html>
