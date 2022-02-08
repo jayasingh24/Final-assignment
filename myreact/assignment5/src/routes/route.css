@@ -1,0 +1,49 @@
+.H1_inv {
+    text-align: center;
+    color:  #ff0000;
+  }
+  
+  .H1_exp{
+    text-align: center;
+    color: #ff0000;
+  }
+
+  .H1_home{
+    text-align: center;
+    color: #ff0000;
+  }
+ .pg_links{
+    text-align: center;
+    font-size: large;
+    
+ }
+       .para{
+        margin: 100px;
+        padding:20px;
+        font-size: 18px;
+        color:#b45454;
+        
+       }
+  
+       .stateex{
+        margin: 50px;
+        padding:20px;
+        font-size: 18px;
+        color:#b45454;
+        
+       }
+       .stateex .but{
+        margin: 20px;
+        padding:2px;
+        background-color: blue;
+        border: 2px solid blue;
+        font-size: 18px;
+        border-radius: 4px;
+        color:red;
+        width: 60px;
+        height: 32px;
+       }
+
+  body{
+    background-color: rgb(156, 197, 187);
+  }
