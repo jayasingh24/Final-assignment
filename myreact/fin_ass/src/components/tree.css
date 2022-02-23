@@ -1,0 +1,221 @@
+.viewlogo{
+    height : 20px;
+    width: 20px;
+    border: 2px solid #142CDC;
+ border-radius: 10px ;
+ margin-right: 4px;
+}
+.topbut{
+    /* border: 2px solid #142CDC; */
+    display: block;
+    margin-right: 0px;
+    margin-top: -120px;
+    float :right; 
+}
+.but1{
+    
+    background: white;
+    color:#142CDC;
+    border: 1px solid rgb(235, 230, 221);
+    
+    padding-left: 4px;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 50px;
+  float: right;
+    border-radius: 4px ;
+
+}
+.but1 :hover {
+    border: 1px solid rgb(240, 223, 192);
+}
+.homebox{
+    /* border: 2px solid #142CDC; */
+    margin-top: 120px;
+    display: block;
+    margin-right: auto;
+ margin-left: auto;
+    width: 500px;
+}
+.homelogo{
+    display: block;
+    height : 40px;
+    width: 40px;
+    border: 2px solid #142CDC;
+ border-radius: 20px ;
+ margin-right: auto;
+ margin-left: auto;
+}
+.homeboxtext{
+    display: block;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color:#142CDC ;
+    /* border: 2px solid #142CDC; */
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: -10px;
+    margin-right: auto;
+ margin-left: auto;
+ border-radius: 8px ;
+ box-shadow: 0 0 10px rgb(207, 204, 204);
+}
+
+.firstline{
+    width: 0px;
+    height: 40px;
+     background-color:rgb(184, 181, 181); 
+     margin-top: -2px;
+}
+.secondline{
+    width: 1224px;
+    height: 0px;
+    margin-top: -7px;
+     background-color:rgb(184, 181, 181);
+     text-overflow: hidden;
+} 
+.expandbox{
+    display: block;
+    float:left;
+    width:100px;
+    height: 40px;
+    border-radius: 8px ;
+    /* border: 2px solid #142CDC;  */
+    border: none;
+    box-shadow: 0 0 10px rgb(207, 204, 204);
+    margin-top: -28px;
+    margin-left: 47px;
+}
+.arrow{
+    display: inline-block;
+    height : 24px;
+    width: 24px;
+   margin-top: 10px;
+   margin-left: 5px;
+   margin-right: 2px;
+    /* border: 2px solid #142CDC; */
+    border: none;
+ border-radius: 10px ;
+}
+
+.etext{
+    display:inline-block;
+    color: #142CDC;
+    font-weight: 700;
+    
+    padding-top: 10px;
+    width: 60px;
+    vertical-align: top;
+}
+
+.expandbox2{
+    display: block;
+    float:right;
+    width:100px;
+    height: 40px;
+    border-radius: 8px ;
+    /* border: 2px solid #142CDC;  */
+    border: none;
+    box-shadow: 0 0 10px rgb(207, 204, 204);
+    margin-top: -28px;
+    margin-right: 47px;
+}
+.sec1{
+    /* border: 2px solid #142CDC; */
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+    overflow-y: scroll;
+    margin-left: 260px;
+    margin-top: -50px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(207, 204, 204);
+
+}
+.data2{
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+    overflow-y: scroll;
+    margin-left: 400px; 
+    margin-top: 100px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(207, 204, 204);
+}
+
+.sec2{
+    display:inline-block ;
+    margin-top: 30px;
+    /* border: 2px solid #142CDC;  */
+    width: 250px;
+    
+}
+.box1{
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 68px;
+    color: #142CDC;
+}
+.detail{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    /* border: 2px solid #142CDC;  */
+    width: 240px;
+    box-shadow: 0 0 10px rgb(207, 204, 204);
+    border-radius: 6px;
+}
+
+.lock{
+    width: 20px;
+    height: 20px;
+    border-radius:6px; 
+    margin-left: -12px;
+ 
+    border: 2px solid #142CDC;  
+    background-color: #142CDC;  
+}
+.finaldata{
+    padding-left: 20px;
+    
+}
+.thirdline{
+    height: 45px;
+    width: 0px;
+    margin-right: 412px;
+    margin-top: -10px;
+
+}
+.fourthline{
+    height: 45px;
+    width: 0px;
+    margin-left: 412px;
+    margin-top: -128px;
+}
+.team{
+    display: inline-block;
+    margin-left: 380px;
+   
+
+height: 64px;
+width: 64px;
+border:2px solid #142CDC;
+border-radius: 32px;
+}
+.associate{
+    margin-left: 628px;
+    margin-top: -10px;
+    display: inline-block;
+    height: 64px;
+width: 64px;
+border:2px solid #142CDC;
+border-radius: 32px;
+
+}
