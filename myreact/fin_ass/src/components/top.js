@@ -4,7 +4,7 @@ import './tree.css';
 import leftarrow from '../images/leftarrow.png';
 import rightarrow from '../images/rightarrow.png';
 import Treedata from './datafetch';
-import Data2 from './data2';
+
 import team from '../images/team.png';
 import associate from '../images/network.png';
 
@@ -28,11 +28,12 @@ const Top = () => {
         <div  ><img src={rightarrow} alt="img" className="arrow"/><span className='etext'>Expand </span></div>   
          
         </div>
-        <hr className='thirdline' /><img src={team} alt="img" className="team"/><img src={associate} alt="img" className="associate"/>
+        <hr className='thirdline' /><img src={team} alt="img" className="team"/><div className='box1'>Subsidiary </div>
+    <img src={associate} alt="img" className="associate"/><div className='box2'>Associate </div>
         <hr className='fourthline' />
         
         <Treedata />
-        <Data2/>
+        
     
     </div>
   )

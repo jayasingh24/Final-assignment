@@ -125,50 +125,66 @@
 }
 .sec1{
     /* border: 2px solid #142CDC; */
-    display: inline-block;
-    width: 280px;
+    display: block;
+    width: 100%;
     height: 400px;
-    overflow-y: scroll;
-    margin-left: 260px;
-    margin-top: -50px;
-    padding-left: 20px;
+    
     border: none;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(207, 204, 204);
+   
 
 }
-.data2{
-    display: inline-block;
-    width: 280px;
-    height: 400px;
-    overflow-y: scroll;
-    margin-left: 400px; 
-    margin-top: 100px;
-    padding-left: 20px;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(207, 204, 204);
-}
-
 .sec2{
     display:inline-block ;
-    margin-top: 30px;
-    /* border: 2px solid #142CDC;  */
-    width: 250px;
+    margin-top: 20px;
+     /* border: 2px solid #142CDC;  */
+    width: 280px;
+    height: 420px;
+   margin-left: 270px;
+   margin-right: 120px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(207, 204, 204); 
     
-}
+    
+} 
+ .sec2box{
+    display:inline-block ;
+    width: 250px;
+    height: 380px;
+    overflow:scroll;
+    margin-top:80px;
+    margin-left: 10px;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    
+} 
+
+ 
 .box1{
     font-size: larger;
     font-weight: 700;
-    margin-left: 68px;
+    display: inline;
+    color: #142CDC;
+    margin-left: -70px;
+}
+.box2{
+   
+   
+    margin-left: -70px;
+    display: inline;
+    font-size: larger;
+    font-weight: 700;
+    
+    
     color: #142CDC;
 }
 .detail{
-    margin-left: 0px;
+    margin-left: 20px;
     margin-bottom: 10px;
     font-size: 14px;
+   padding-bottom: 10px;
     /* border: 2px solid #142CDC;  */
-    width: 240px;
+    width: 220px;
     box-shadow: 0 0 10px rgb(207, 204, 204);
     border-radius: 6px;
 }
@@ -178,7 +194,7 @@
     height: 20px;
     border-radius:6px; 
     margin-left: -12px;
- 
+ margin-top: 10px;
     border: 2px solid #142CDC;  
     background-color: #142CDC;  
 }
@@ -187,35 +203,39 @@
     
 }
 .thirdline{
-    height: 45px;
+    height: 50px;
     width: 0px;
-    margin-right: 412px;
+    margin-right: 440px;
     margin-top: -10px;
-
+    background-color:rgb(184, 181, 181);
+    text-overflow: hidden;
 }
 .fourthline{
-    height: 45px;
+    height: 50px;
     width: 0px;
     margin-left: 412px;
-    margin-top: -128px;
+     margin-top: -148px;
+     background-color:rgb(184, 181, 181);
+     text-overflow: hidden; 
 }
 .team{
     display: inline-block;
     margin-left: 380px;
-   
 
-height: 64px;
-width: 64px;
+margin-bottom: 30px;
+height: 54px;
+width: 54px;
 border:2px solid #142CDC;
-border-radius: 32px;
+border-radius: 27px;
 }
 .associate{
-    margin-left: 628px;
-    margin-top: -10px;
+    margin-bottom: 30px;
+    margin-left: 590px;
+    /* margin-top: -30px; */
     display: inline-block;
-    height: 64px;
-width: 64px;
+    height: 54px;
+width: 54px;
 border:2px solid #142CDC;
-border-radius: 32px;
+border-radius: 27px;
 
 }

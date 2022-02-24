@@ -150,11 +150,12 @@ const configData = {
 
   const Treedata = () => {
     return (
-    <div className='sec1'> <span className='box1'>Subsidiary </span>
+    <div className='sec1'> 
         {configData.data.map((item)=>{
             return(
                 
-<div className='sec2'>
+<div className='sec2' >
+<div className="sec2box">
     {item.leafRows.map((subSection)=>{
         return(
 <div className='detail'>
@@ -172,7 +173,8 @@ const configData = {
 
     }
 
-</div>
+
+</div></div>
             )
  })
            
